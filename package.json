@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "devBuild":"vite build && node server.js",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "nodemon --watch server.js --watch src --ext js,jsx --exec npm run devBuild"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
