@@ -1,10 +1,11 @@
 import '../App.css'
+import Calendar from './Calendar'
 
 export default function Planner(props){
     return(
         <>
             <p>planner</p>
-            <button onClick={props.setDayi(0)}>test2</button>
+            <Calendar/>
         </>
     )
 }
