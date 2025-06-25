@@ -15,7 +15,7 @@ function App() {
       <div id='body'>
         {
           dayi===0 ?
-          <Landing/> :
+          <Landing setDayi={setDayi} setDayf={setDayf}/> :
           <Planner/>
         }
       </div>

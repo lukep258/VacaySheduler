@@ -5,7 +5,7 @@ export default function Landing(props){
     return(
         <>
             <p>landing</p>
-            <CalComp/>
+            <CalComp setDayi={props.setDayi} setDayf={props.setDayf}/>
         </>
     )
 }
