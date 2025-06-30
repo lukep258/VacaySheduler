@@ -5,8 +5,8 @@ import 'react-date-range/dist/theme/default.css'
 
 export default function CalComp(props) {
     const handleSelect = (ranges) => {
-        props.setDayi(ranges.selection.startDate.valueOf())
-        props.setDayf(ranges.selection.endDate.valueOf())
+        // props.setDayi(ranges.selection.startDate.valueOf())
+        // props.setDayf(ranges.selection.endDate.valueOf())
     }
     const selectionRange = {
         startDate: new Date(),
